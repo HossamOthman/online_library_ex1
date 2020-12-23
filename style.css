@@ -1,0 +1,135 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+header nav, footer nav{
+    width: 100%;
+    margin: 35px 0;
+}
+header nav a, footer nav a {
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: tomato;
+    border-radius: 3px;
+    border: 1px solid tomato;
+}
+
+header nav a:hover, footer nav a:hover {
+    background-color: #fff;
+    color: tomato;
+    border: 1px solid tomato;
+}
+
+#children, #romance {
+    margin: 20px;
+}
+section h2 {
+    margin: 40px 0 10px;
+    padding: 15px;
+    background-color: lightblue;
+    font-family: 'Josefin Slab', serif;
+    font-size: 22px;
+    letter-spacing: .3ch;
+    line-height: 30px;
+    vertical-align: center;
+}
+section div h3 {
+    margin: 15px 0 0;
+    width: fit-content;
+    padding: 10px 25px;
+    color: tomato;
+    font-family: 'caveat', cursive;
+    font-size: 25px;
+    letter-spacing: .3ch;
+    border-bottom: 2px solid #333;
+}
+
+
+.book-content{
+border: 3px solid #111;
+border-radius: 20px;
+padding: 0 40px 20px;
+margin: 30px;
+}
+
+.book-content div{
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+
+.book-content div img{
+    width: 200px;
+    margin: 0 auto;
+}
+.book-content > div:hover {
+    box-shadow: 2px 2px 5px #333, -2px -2px 5px #777;
+    cursor:help;
+}
+.book-content blockquote{
+    font-family: 'caveat', cursive;
+    font-size: 22px;
+    margin: 30px 0;
+}
+.book-content blockquote i {
+    color: fuchsia;
+}
+section div p {
+    column-count: 2;
+    column-gap: 50px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.book-content a {
+    color: #fff;
+    background: tomato;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    height: 55px;
+    width: 155px;
+    text-align: right;
+    margin: 10px 15px 0;
+}
+.book-content a:nth-last-of-type(1) {
+    text-align: center;
+}
+
+
+.book-content a i {
+vertical-align: middle;
+margin-right: 10px;
+}
+
+.book-content a .fa-spinner{
+    display: none;
+}
+
+.book-content a:hover .fa-spinner{
+    display: inline-block;
+}
+.book-content a:hover .fa-readme{
+    display: none;
+}
+
+footer {
+    margin: 0 auto;
+    background: #999;
+    text-align: center;
+    padding: 10px 30px;
+}
+footer p{
+margin-top: 50px}
